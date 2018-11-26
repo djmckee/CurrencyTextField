@@ -90,8 +90,8 @@ import UIKit
         let textFieldString = self.text
         if let textFieldString = textFieldString{
             
-            //Remove $ sign
-            var toArray = textFieldString.components(separatedBy: "$")
+            //Remove £ sign
+            var toArray = textFieldString.components(separatedBy: "£")
             cleanNumericString = toArray.joined(separator: "")
             
             //Remove periods, commas
