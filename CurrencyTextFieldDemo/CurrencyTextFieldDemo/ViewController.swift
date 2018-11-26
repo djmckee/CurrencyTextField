@@ -22,7 +22,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     }
     
     func textFieldShouldClear(_ textField: UITextField) -> Bool {
-        textField.text = "$0.00"
+        textField.text = "£0.00"
         return false
     }
 
